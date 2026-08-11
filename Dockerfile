@@ -1,4 +1,4 @@
-FROM serversideup/php:8.3-fpm-nginx
+FROM serversideup/php:8.4-fpm-nginx
 
 ENV AUTORUN_ENABLED=true
 ENV NGINX_HTTP_PORT=80
