@@ -10,7 +10,7 @@ ARG TARGETPLATFORM
 
 USER root
 
-RUN install-php-extensions intl
+RUN install-php-extensions intl gd
 
 RUN set -ex; \
     case "$TARGETPLATFORM" in \
