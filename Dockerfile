@@ -12,6 +12,7 @@ USER root
 
 RUN install-php-extensions intl gd
 
+
 RUN set -ex; \
     case "$TARGETPLATFORM" in \
         "linux/amd64")  ARCH="amd64" ;; \
